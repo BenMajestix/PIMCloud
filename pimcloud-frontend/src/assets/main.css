@@ -1,0 +1,13 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+html,
+body {
+  height: 100%; /* Ensure the app can fill the viewport */
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Fill the viewport height */
+}
