@@ -10,7 +10,7 @@ import caldav
 
 caldev_url = "https://cloud.benbartel.de/remote.php/dav"
 username = "Ben"
-password = "abb0t$f0rd_*"
+password = ""
 
 with caldav.DAVClient(
     url=caldev_url,
